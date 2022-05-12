@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    padding: 33px;
+    width: 100%;
+    max-width:auto;
+    overflow: hidden;
+    text-align:left;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 99px;
+    left: 0px;
+    top: 0px;
+    background: #00AF1C;
+}
+.lista{
+    position:absolute;
+    right:10px;
+    top: 38px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight:bolder;
+  
+}
+.logo{
+    position: absolute;
+    width: 95px;
+    height: 37px;
+    left: 33px;
+    top: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    overflow:hidden;
+}
+[class$="-titulo"]{
+    padding-bottom: 30px;
+
+}
+.home-titulo{
+    color: #3B06D2;
+}
+.servicios-titulo{
+    color: #D206B2;
+}
+.portafolio-titulo{
+    color: #AAD206;
+    
+}
+.contacto-titulo{
+    color: #06D2C6;
+}
+
+.formularios{
+    position: relative;
+    top:30px;
+    left:40px;
+}
+.formularios ul{
+    width: 158px;
+    height: 176px;
+    left: 49px;
+    top: 1075px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+    /* or 244% */
+
+
+
+}
